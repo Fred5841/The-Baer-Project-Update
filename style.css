@@ -1,0 +1,75 @@
+body {
+    background: rgb(78, 0, 255);
+    width: 90%;
+    color: lightcoral;
+    font-family: 'Arial';
+    margin: 0 auto;
+}
+
+#TOP {
+    color: red;
+}
+
+.Spalten {
+    flex: 1;
+}
+
+.Spaltenbox {
+    display: flex;
+    font-size: 1em;
+}
+
+.bild {
+    min-width: 280px;
+    min-width: 10%;
+    max-width: 1200px;
+    max-height: 300px;
+}
+
+.bildergalerie {
+    max-width: 200px;
+    max-height 300px;
+}
+
+.box {
+    border: 1px solid blue;
+    min-width: 400px;
+    max-width: 1200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+
+header {
+    background: white;
+    color: black;
+    margin: 50px auto;
+    text-align: left
+}
+
+nav {
+    display: block;
+}
+
+#Europa {
+    color: white;
+    background: red;
+}
+
+#Asien {
+    background: green;
+    color: black;
+}
+
+#Amerika {
+    background: yellow;
+    color: brown;
+}
+
+main {
+    min-width: 500px;
+}
+
+#Bildergalerie {
+    background-color: grey;
+}
